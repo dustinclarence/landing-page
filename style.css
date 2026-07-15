@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-header {
+.hero-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 190px;
+  padding: 12px 170px;
   background-color: #1f2937;
 }
 
@@ -51,7 +51,7 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 90px 190px 140px;
+  padding: 110px 170px 134px;
   background-color: #1f2937;
 }
 
@@ -79,7 +79,7 @@ nav a {
   justify-content: center;
   align-items: center;
   width: 148px;
-  height: 32px;
+  height: 38px;
   border: 2px solid #3882f6;
   border-radius: 8px;
   background-color: #3882f6;
@@ -96,4 +96,73 @@ nav a {
   border: 4px solid #f9faf8;
   border-radius: 18%;
   object-fit: cover;
+}
+
+/* content */
+
+.information-header-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 72px 48px;
+}
+
+.skills-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 48px;
+}
+
+.skills-logos img {
+  width: 170px;
+  height: 170px;
+  border: 4px solid #3882f6;
+  border-radius: 8%;
+  object-fit: cover;
+}
+
+.skill-text {
+  font-size: 18px;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 170px;
+  height: auto;
+  gap: 18px;
+}
+
+/* quote */
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 124px auto;
+  padding-block: 154px;
+  color: #1f2937;
+}
+
+.quote-text {
+  width: 699px;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-attribution {
+  font-size: 18px;
+  margin-block-start: 48px;
+  width: 699px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  text-align: left;
 }
