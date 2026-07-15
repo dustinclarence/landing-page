@@ -1,3 +1,5 @@
-## Image Credits
+## Image Credit
 
-- Hero section image: https://www.livescience.com/coding-vs-programming-what-is-the-difference
+The hero section image is sourced from *Live Science*:
+
+* https://www.livescience.com/coding-vs-programming-what-is-the-difference
